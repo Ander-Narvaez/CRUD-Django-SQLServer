@@ -11,9 +11,11 @@ Tecnologías utilizadas:
 
 Para que se ejecute en su máquina local, siga los pasos a continuación
 
-   1. git clone 
-   2. Cambie settings.py SQL CONFIGURATIONS (name, user, password)
-   3. pip install -r requirements.txt
+   git clone 
+   
+   Cambie settings.py SQL CONFIGURATIONS (name, user, password)
+   
+   pip install -r requirements.txt
  
  ## Ejecución de la aplicación
  
@@ -25,13 +27,17 @@ Ahora puede ejecutar el servidor web de desarrollo:
 
     python manage.py runserver
 
-Para acceder a las aplicaciones vaya a la URL
- 
-  http://127.0.0.1:8000
+Para acceder a las aplicaciones vaya a la URL http://127.0.0.1:8000
 
 ## Necesito un usuario y contraseña para acceder a la aplicación
 
 Esto porque el app esta para que cuando arranque redireccione al login de manera que solo 
+
+Desarrollador  ✒️
+------------------
+| Primer Apellido | Segundo Apellido | Nombre | sitios 📌  |
+| :-------- | :-------: | --------: | :-------: |
+| Narvaez | Gonzalez | Ander | https://github.com/Ander-Narvaez |
 se puede acceder a la app teniendo un user y password, debido a que cada ruta esta protegida
 con el decorador de login_required, para que el usario puede hacer login y logout.
 
