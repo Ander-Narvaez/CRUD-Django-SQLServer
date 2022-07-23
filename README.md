@@ -39,7 +39,7 @@ Puede crear un usuario utilizando el siguiente comando:
 
     python manage.py createsuperuser
     
-Nota: Le solicitara lo siguiente: (enter username, email, password)
+Nota: Le solicitara los siguiente datos: (enter username, email, password)
 
 Para crear un usuario normal (no superusuario), debe iniciar sesión en la página de administración y crearla: http://localhost:8000/admin/
 
