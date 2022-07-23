@@ -2,7 +2,7 @@
 
 Este es un pequeño proyecto de Django para demostrar la funcionalidad CRUD de Django, que te que permite crear, mostrar, actualizar y eliminar datos, usando SQL Server como motor de base de datos para la realización de las consultas DML.
 
-Tecnologías utilizadas:
+# Tecnologías utilizadas:
 - Django
 - Bootstrap v5.2
 - JavaScript
@@ -11,8 +11,10 @@ Tecnologías utilizadas:
 
 Para que se ejecute en su máquina local, siga los pasos a continuación
 
-    git clone 
+    git clone https://github.com/Ander-Narvaez/CRUD-Django-SQLServer.git
+    
     Cambie settings.py SQL CONFIGURATIONS (name, user, password)
+    
     pip install -r requirements.txt
  
  ## Ejecución de la aplicación
@@ -46,3 +48,5 @@ Desarrollador  ✒️
 | Primer Apellido | Segundo Apellido | Nombre | sitios 📌  |
 | :-------- | :-------: | --------: | :-------: |
 | Narvaez | Gonzalez | Ander | https://github.com/Ander-Narvaez |
+
+
