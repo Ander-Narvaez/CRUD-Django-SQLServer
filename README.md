@@ -27,7 +27,7 @@ Ahora puede ejecutar el servidor web de desarrollo:
 
     python manage.py runserver
 
-Para acceder a las aplicaciones vaya a la URL http://127.0.0.1:8000
+Para acceder a las aplicaciones vaya a la URL: http://127.0.0.1:8000
 
 ## Necesito un usuario y contraseña para acceder a la aplicación
 
