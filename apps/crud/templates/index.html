@@ -1,0 +1,41 @@
+{% extends "Base.html"%}
+
+{% block titulo %} Control de Datos {% endblock %}
+
+{% block contenido %}
+
+<div class="card">
+    <div class="card-header">
+        <a name="" id="" class="btn btn-success" href="{% url 'agregar_dato' %}" role="button">Agregar Nuevo Dato</a>
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Datos</h4>  
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Texto</th>
+                    <th>Descripcion</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for dato in show_data %}
+                <tr>
+                    <td scope="row">{{ dato.id }}</td>
+                    <td>{{ dato.texto }}</td>
+                    <td>{{ dato.descripcion }}</td>
+                    <td>
+                        <a type="button" name="" id="" class="btn btn-info" href="{% url 'modificar_dato' dato.id %}" role="button">Editar</a> 
+                            |
+                        <a type="button" name="" id="" class="btn btn-danger btnDelete" href="{% url 'eliminar_dato' dato.id %}" role="button">Borrar</a>
+                    </td>                  
+                </tr>
+            </tbody>
+            {% endfor %}
+        </table>   
+    </div>
+</div>
+
+{% endblock %}

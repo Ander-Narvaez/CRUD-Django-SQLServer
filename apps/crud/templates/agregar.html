@@ -1,0 +1,17 @@
+{% extends "Base.html"%}
+
+{% block titulo %} Agregar Nuevo Dato {% endblock %}
+
+{% block contenido %}
+
+<div class="card">
+    <div class="card-header">
+      Agregar Nuevo Dato
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Datos</h4>   
+         {% include 'form.html' %}
+    </div>
+</div>
+
+{% endblock %}
