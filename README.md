@@ -16,7 +16,7 @@ Para que se ejecute en su máquina local, siga los pasos a continuación
     Cambie settings.py SQL CONFIGURATIONS (name, user, password)
 ```    
     pip install -r requirements.txt
- 
+```  
  ## Ejecución de la aplicación
  
 Antes de ejecutar la aplicación necesitamos crear las tablas de base de datos mediante el modelo ORM:
