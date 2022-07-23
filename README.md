@@ -2,7 +2,7 @@
 
 Este es un pequeño proyecto de Django para demostrar la funcionalidad CRUD de Django, que te que permite crear, mostrar, actualizar y eliminar datos, usando SQL Server como motor de base de datos para la realización de las consultas DML.
 
-# Tecnologías utilizadas:
+## Tecnologías utilizadas:
 - Django
 - Bootstrap v5.2
 - JavaScript
