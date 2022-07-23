@@ -11,9 +11,9 @@ Este es un pequeño proyecto de Django para demostrar la funcionalidad CRUD de D
 
 Para que se ejecute en su máquina local, siga los pasos a continuación:
 ```
-git clone https://github.com/Ander-Narvaez/CRUD-Django-SQLServer.git
-```    
- Cambie settings.py SQL CONFIGURATIONS (name, user, password)
+git clone https://github.com/Ander-Narvaez/CRUD-Django-SQLServer.git    
+```
+Cambie settings.py SQL CONFIGURATIONS (name, user, password)
 ```    
 pip install -r requirements.txt
 ```  
