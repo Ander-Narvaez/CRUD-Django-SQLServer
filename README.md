@@ -12,10 +12,8 @@ Tecnologías utilizadas:
 Para que se ejecute en su máquina local, siga los pasos a continuación
 
     git clone 
-   
-   Cambie settings.py SQL CONFIGURATIONS (name, user, password)
-   
-   pip install -r requirements.txt
+    Cambie settings.py SQL CONFIGURATIONS (name, user, password)
+    pip install -r requirements.txt
  
  ## Ejecución de la aplicación
  
