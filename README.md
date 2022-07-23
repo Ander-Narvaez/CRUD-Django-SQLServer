@@ -19,11 +19,11 @@ Para que se ejecute en su máquina local, siga los pasos a continuación
  
 Antes de ejecutar la aplicación necesitamos crear las tablas de base de datos mediante el modelo ORM:
 
-  python manage.py migrate
+    python manage.py migrate
 
 Ahora puede ejecutar el servidor web de desarrollo:
 
-  python manage.py runserver
+    python manage.py runserver
 
 Para acceder a las aplicaciones vaya a la URL
  
