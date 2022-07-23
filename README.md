@@ -9,7 +9,7 @@ Tecnologías utilizadas:
 
 ## Instalar paquetes requeridos 
 
-Para que se ejecute en su máquina local, siga los pasos a continuación:
+Para que se ejecute en su máquina local, siga los pasos a continuación
 
    1. git clone 
    2. Cambie settings.py SQL CONFIGURATIONS (name, user, password)
