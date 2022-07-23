@@ -10,8 +10,8 @@ Este es un pequeño proyecto de Django para demostrar la funcionalidad CRUD de D
 ## Instalar paquetes requeridos 
 
 Para que se ejecute en su máquina local, siga los pasos a continuación
-    1.
-    git clone https://github.com/Ander-Narvaez/CRUD-Django-SQLServer.git
+
+    1.git clone https://github.com/Ander-Narvaez/CRUD-Django-SQLServer.git
     
     Cambie settings.py SQL CONFIGURATIONS (name, user, password)
     
